@@ -1,0 +1,29 @@
+{
+  "name": "vanilla-js-boilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js --env mode=production",
+    "start": "webpack serve --config webpack.config.js --env mode=development"
+  },
+  "author": "Shreyansh Gupta <40631571+shreyansh-g24@users.noreply.github.com>",
+  "license": "ISC",
+  "description": "Vanilla JS boilerplate.",
+  "repository": "git@github.com:guptashreyansh/vanilla-js-boilerplate.git",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "css-minimizer-webpack-plugin": "^7.0.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.9.0",
+    "postcss": "^8.4.39",
+    "postcss-loader": "^8.1.1",
+    "postcss-preset-env": "^9.6.0",
+    "tailwindcss": "^3.4.4",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
